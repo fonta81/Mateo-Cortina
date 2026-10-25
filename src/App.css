@@ -117,6 +117,63 @@
   padding: 0.5rem 0;
 }
 
+.gtranslate_wrapper .gt_float_switcher,
+.gtranslate_wrapper .gt_float_switcher .gt-selected,
+.gtranslate_wrapper .gt_float_switcher .gt-selected .gt-current-lang {
+  background: transparent !important;
+}
+
+.gtranslate_wrapper .gt_float_switcher {
+  box-shadow: none;
+}
+
+.gtranslate_wrapper .gt_float_switcher .gt-selected .gt-current-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  color: var(--text-h);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.gtranslate_wrapper .gt_float_switcher .gt-selected .gt-current-lang:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.gtranslate_wrapper .gt_float_switcher .gt-selected .gt-current-lang img {
+  width: 13px;
+  height: auto;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.gtranslate_wrapper .gt_float_switcher .gt_options a {
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.75rem;
+  transition:
+    background-color 0.2s,
+    box-shadow 0.2s,
+    color 0.2s;
+}
+
+.gtranslate_wrapper .gt_float_switcher .gt_options a:hover,
+.gtranslate_wrapper .gt_float_switcher .gt_options a:focus-visible {
+  background: var(--accent-bg) !important;
+  box-shadow: 0 0 0 1px var(--accent-bg);
+  color: var(--accent) !important;
+  outline: none;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   padding: 4rem 1.5rem 3rem;
