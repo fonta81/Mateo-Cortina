@@ -1,5 +1,7 @@
 # My Portfolio
 
+[English](README.md) | [Español](README.es.md)
+
 Personal portfolio and landing page for Mateo Cortina Fontalvo, built with React + Vite. The project is designed as a modern, minimalist, and responsive website to present professional information, skills, projects, and contact details.
 
 ## Description
@@ -125,4 +127,4 @@ GitHub link: https://github.com/fonta81
 
 ## License
 
-This project is distributed for personal and professional presentation purposes.
+[License MIT](LICENSE)
