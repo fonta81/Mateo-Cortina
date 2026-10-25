@@ -111,6 +111,12 @@
   color: var(--accent);
 }
 
+.gtranslate_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   padding: 4rem 1.5rem 3rem;

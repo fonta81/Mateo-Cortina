@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const links = [
   { id: 'hero', label: 'Inicio' },
@@ -8,8 +8,37 @@ const links = [
   { id: 'contact', label: 'Contacto' },
 ]
 
+let translationWidgetPromise
+
 export default function Navbar({ setTheme }) {
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    window.gtranslateSettings = {
+      default_language: 'es',
+      languages: ['es', 'en'],
+      wrapper_selector: '.gtranslate_wrapper',
+      switcher_horizontal_position: 'inline',
+      switcher_vertical_position: 'top',
+      flag_size: 16,
+      flag_style: '2d',
+    }
+
+    if (!translationWidgetPromise) {
+      translationWidgetPromise = new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = 'https://cdn.gtranslate.net/widgets/latest/float.js'
+        script.async = true
+        script.onload = resolve
+        script.onerror = () => reject(new Error('GTranslate widget failed to load'))
+        document.head.appendChild(script)
+      })
+    }
+
+    translationWidgetPromise.catch((error) => {
+      console.error('Could not load the translation widget:', error)
+    })
+  }, [])
 
   return (
     <nav className="navbar">
@@ -58,6 +87,7 @@ export default function Navbar({ setTheme }) {
               {link.label}
             </a>
           ))}
+          <div className="gtranslate_wrapper" role="group" aria-label="Selector de idioma" />
         </div>
       </div>
     </nav>
