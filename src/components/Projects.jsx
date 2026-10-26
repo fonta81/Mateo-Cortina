@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'linux-setup-script',
     description:
-      'Automated setup script to configure fresh Fedora and CachyOS Linux installations with essential dev tools, Zsh, Neovim, and Flatpaks.',
+      'Script de configuración automatizada para preparar instalaciones nuevas de Fedora y CachyOS Linux con herramientas de desarrollo esenciales, Zsh, Neovim, Flatpaks, etc.',
     link: 'https://github.com/fonta81/linux-setup-script',
     image: 'src/assets/Linux.png',
   },
