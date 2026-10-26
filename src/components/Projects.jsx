@@ -10,18 +10,18 @@ const projects = [
     image: 'src/assets/IconMine.jpeg',
   },
   {
-    title: 'Task Manager',
+    title: 'linux-setup-script',
     description:
-      'Aplicación de gestión de tareas con React, permitiendo crear, editar y eliminar tareas de forma sencilla.',
-    link: '#',
-    image: '/src/assets/react.svg',
+      'Automated setup script to configure fresh Fedora and CachyOS Linux installations with essential dev tools, Zsh, Neovim, and Flatpaks.',
+    link: 'https://github.com/fonta81/linux-setup-script',
+    image: 'src/assets/Linux.png',
   },
   {
     title: 'Weather App',
     description:
       'Consulta del clima en tiempo real consumiendo una API externa, con interfaz limpia y adaptable.',
     link: '#',
-    image: '/src/assets/vite.svg',
+    image: '',
   },
 ]
 
