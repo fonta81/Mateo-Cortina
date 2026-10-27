@@ -11,7 +11,7 @@ const contacts = [
   },
   {
     label: 'Email',
-    href: 'mailto:cortinamateo211@gmail.com',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=cortinamateo211%40gmail.com',
     icon: 'https://google.com/favicon.ico',
   },
 ]
