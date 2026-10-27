@@ -11,7 +11,7 @@ const contacts = [
   },
   {
     label: 'Email',
-    href: 'mailto:contacto@example.com',
+    href: 'mailto:cortinamateo211@gmail.com',
     icon: 'https://google.com/favicon.ico',
   },
 ]
