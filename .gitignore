@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Archivos generados por Vite
+dist/
+.vite/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Logs y cobertura
+*.log
+coverage/
+
+# Sistema operativo y editores
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
