@@ -17,11 +17,11 @@ const projects = [
     image: 'src/assets/Linux.png',
   },
   {
-    title: 'Weather App',
+    title: 'GoPLayer',
     description:
-      'Consulta del clima en tiempo real consumiendo una API externa, con interfaz limpia y adaptable.',
-    link: '#',
-    image: '',
+      'Un reproductor de música para terminal Go con muchas funciones, creado con Bubble Tea, Lipgloss y Beep.',
+    link: 'https://github.com/fonta81/GoPLayer',
+    image: 'src/assets/GoPlayer.png',
   },
 ]
 
