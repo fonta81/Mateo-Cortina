@@ -1,16 +1,25 @@
 import SkillBadge from './SkillBadge'
 
 const skills = [
-  'React',
+  'Git',
+  'Rust',
+  'Nix',
+  'Bash Script',
+  'Go',
+  'Python',
   'JavaScript',
+  'React',
   'HTML5',
   'CSS3',
   'Vite',
-  'Git',
   'GitHub',
-  'Python',
-  'Go',
-  'Bash Script',
+  'LinuxBash Script',
+  'Docker',
+  'NixOs',
+  'Cargo(Rust)',
+  'SSH',
+  'Vim',
+  'AI-assisted Development',
 ]
 
 export default function Skills() {
