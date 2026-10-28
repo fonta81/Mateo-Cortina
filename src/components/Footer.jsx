@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p>
-        &copy; {currentYear} Mateo. Todos los derechos reservados.
+        &copy; {currentYear} Mateo Cortina. Todos los derechos reservados.
       </p>
     </footer>
   )
