@@ -7,7 +7,7 @@ const projects = [
     description:
       'Página de presentación personal construida con React y Vite, enfocada en un diseño minimalista y responsivo.',
     link: '#',
-    image: 'src/assets/IconMine.jpeg',
+    image: 'https://unavatar.io/github/fonta81',
   },
   {
     title: 'linux-setup-script',
