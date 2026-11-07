@@ -2,17 +2,17 @@ const contacts = [
   {
     label: 'GitHub',
     href: 'https://github.com/fonta81',
-    icon: 'https://github.com/favicon.ico',
+    domain: 'github.com',
   },
   {
     label: 'LinkedIn',
     href: 'https://linkedin.com/in/mateocortina/',
-    icon: 'https://linkedin.com/favicon.ico',
+    domain: 'linkedin.com',
   },
   {
     label: 'Email',
     href: 'https://mail.google.com/mail/?view=cm&fs=1&to=cortinamateo211%40gmail.com',
-    icon: 'https://google.com/favicon.ico',
+    domain: 'google.com',
   },
 ]
 
@@ -31,6 +31,12 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="contact-link"
           >
+            <img
+              src={`https://www.google.com/s2/favicons?domain=${item.domain}&sz=32`}
+              alt={`Icono ${item.label}`}
+              className="contact-icon"
+              loading="lazy"
+            />
             {item.label}
           </a>
         ))}
