@@ -8,6 +8,7 @@ const skills = [
   'Go',
   'Python',
   'JavaScript',
+  'Django',
   'React',
   'HTML5',
   'CSS3',
