@@ -2,17 +2,17 @@ const contacts = [
   {
     label: 'GitHub',
     href: 'https://github.com/fonta81',
-    domain: 'github.com',
+    icon: 'github',
   },
   {
     label: 'LinkedIn',
     href: 'https://linkedin.com/in/mateocortina/',
-    domain: 'linkedin.com',
+    icon: 'linkedin',
   },
   {
     label: 'Email',
     href: 'https://mail.google.com/mail/?view=cm&fs=1&to=cortinamateo211%40gmail.com',
-    domain: 'google.com',
+    icon: 'gmail',
   },
 ]
 
@@ -32,7 +32,7 @@ export default function Contact() {
             className="contact-link"
           >
             <img
-              src={`https://www.google.com/s2/favicons?domain=${item.domain}&sz=32`}
+              src={`https://api.iconify.design/simple-icons/${item.icon}.svg?color=currentColor&height=24`}
               alt={`Icono ${item.label}`}
               className="contact-icon"
               loading="lazy"

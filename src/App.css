@@ -451,8 +451,9 @@ main {
   height: 24px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--code-bg);
+  background: transparent;
   object-fit: cover;
+  display: block;
 }
 
 /* ---------- Footer ---------- */
