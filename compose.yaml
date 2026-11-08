@@ -1,0 +1,26 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: dockerfile
+      target: dev
+    container_name: mipresentacion-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: sh -c "npm ci && npm run dev -- --host"
+    stdin_open: true
+    tty: true
+
+  prod:
+    build:
+      context: .
+      dockerfile: dockerfile
+      target: prod
+    container_name: mipresentacion-prod
+    ports:
+      - "80:80"
