@@ -14,7 +14,7 @@ const skills = [
   'CSS3',
   'Vite',
   'GitHub',
-  'LinuxBash Script',
+  'Linux',
   'Docker',
   'NixOs',
   'Cargo(Rust)',
