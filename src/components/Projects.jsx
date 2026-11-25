@@ -42,7 +42,7 @@ const projects = [
     description:
       'A simple project-starter CLI written in Rust using clap',
     link: 'https://github.com/fonta81/InitRu',
-    image: './src/assets/initRu.png',
+    image: 'https://github.com/fonta81/Mateo-Cortina/blob/master/src/assets/initRu.png?raw=true',
   },
 ]
 
