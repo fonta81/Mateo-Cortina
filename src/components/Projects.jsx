@@ -37,6 +37,13 @@ const projects = [
     link: 'https://github.com/fonta81/Video-Reproductor/tree/master',
     image: 'https://github.com/fonta81/Mateo-Cortina/blob/master/src/assets/VideoPlayer.png?raw=true',
   },
+  {
+    title: 'InitRu',
+    description:
+      'A simple project-starter CLI written in Rust using clap',
+    link: 'https://github.com/fonta81/InitRu',
+    image: 'https://github.com/fonta81/Mateo-Cortina/blob/master/src/assets/initRu.png.png?raw=true',
+  },
 ]
 
 export default function Projects() {
